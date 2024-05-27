@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    /* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f3eae6de;
+  color: #f26d08f0;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#hero {
+  background-image: url('https://www.holidayhometimes.com/wp-content/uploads/2012/05/Youth-hostel-bedroom.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #0b0505;
+  padding: 100px;
+  text-align: center;
+}
+
+#search {
+  
+  background-color: #eceae7;
+  padding: 50px;
+  text-align: center;
+}
+
+#search h2 {
+  margin-top: 0;
+}
+
+#search-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+.hotelcard{
+  margin-left: 5%;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+
+    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stay Affordable-Book Now</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SABN</h1>
+  </header>
+  
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Find Your Perfect Stay</h2>
+      <h1>Discover a wide range of hotels and book your stay with ease.</h1>
+      <a href="#search" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section id="search">
+    <h2>Search for Hotels</h2>
+    <form id="search-form">
+      <div class="form-group">
+        <label for="location">Location:</label>
+        <input type="text" id="location" required>
+      </div>
+      <div class="form-group">
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" required>
+      </div>
+      <div class="form-group">
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" required>
+      </div>
+      <div class="form-group">
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" min="1" max="10" required>
+      </div>
+      <button type="submit" class="btn">Search</button>
+    </form>
+  </section>
+
+  <section id="results">
+    <h2>Search Results</h2>
+    <div id="hotel-list">
+      <!-- Hotel results will be dynamically populated here -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 . All rights reserved.</p>
+  </footer><hr>
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+
+<h4>.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.makemytrip.com/hotels/hotel-listing/?_uCurrency=INR&checkin=07132023&checkout=08092023&city=CTHYDERA&country=IN&filterData=HOTEL_PRICE_BUCKET%7C0-2000&locusId=CTHYDERA&locusType=city&regionNearByExp=3&roomStayQualifier=2e0e&searchText=Hyderabad%2C%20Telangana%2C%20India">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.kOYFucIFXauQhr3if9tc4gHaE0&pid=Api&P=0&h=180" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Best hostels in hyderbad</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.makemytrip.com/hotels/hotel-listing/?_uCurrency=INR&checkin=07132023&checkout=08092023&city=CTHYDERA&country=IN&filterData=HOTEL_PRICE_BUCKET%7C0-2000&locusId=CTHYDERA&locusType=city&regionNearByExp=3&roomStayQualifier=2e0e&searchText=Hyderabad%2C%20Telangana%2C%20India">
+      <img src="https://images.thrillophilia.com/image/upload/s--7LxjD9pp--/c_fill,f_auto,fl_strip_profile,h_800,q_auto,w_1300/v1/images/photos/000/082/747/original/1464260305_famale_dormitory_Room_01.jpg.jpg?1464260305" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">best beds</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.makemytrip.com/hotels/hotel-listing/?_uCurrency=INR&checkin=07132023&checkout=08092023&city=CTHYDERA&country=IN&filterData=HOTEL_PRICE_BUCKET%7C0-2000&locusId=CTHYDERA&locusType=city&regionNearByExp=3&roomStayQualifier=2e0e&searchText=Hyderabad%2C%20Telangana%2C%20India">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.s_9U0tFbysl5sb4t7-ZeZAHaE8&pid=Api&P=0&h=180" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">cheap cost</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.makemytrip.com/hotels/hotel-listing/?_uCurrency=INR&checkin=07132023&checkout=08092023&city=CTHYDERA&country=IN&filterData=HOTEL_PRICE_BUCKET%7C0-2000&locusId=CTHYDERA&locusType=city&regionNearByExp=3&roomStayQualifier=2e0e&searchText=Hyderabad%2C%20Telangana%2C%20India">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.10sko-bX2oLFaBYyvbY7vgHaE8&pid=Api&P=0&h=180" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">good quality </div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  
+</div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head> 
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>bysac -book your stay at afforable cost</p>
+  <p>happy jounry.</p>
+</div>
+
+<h2 style="text-align:center"></h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.nTK-yAWL01laY6CKjMEq3gHaHa&pid=Api&P=0&h=180" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Anusha</h2>
+        
+        <p>anushaguda2003@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+   
+
+  <script src="script.js"></script>
+  <script> 
+  // script.js
+
+// Simulated hotel data
+const hotels = [
+  {
+    name: "Bysac",
+    location: "hyderabad",
+    price: 100,
+    image: "https://tse1.mm.bing.net/th?id=OIP.ViUAuItOO54F6HlshFw-fQHaFI&pid=Api&P=0&h=180"
+  },
+  {
+    name: "bysac",
+    location: "kallakal",
+    price: 150,
+    image: "https://tse1.mm.bing.net/th?id=OIP.zKhAXqMCRgTh4PNA0KT-6wFRC5&pid=Api&P=0&h=180"
+  },
+  {
+    name: "Bysac A1",
+    location: "Cmr",
+    price: 120,
+    image: "https://tse4.mm.bing.net/th?id=OIP.v50iLJ_Vf1zi1LPhIgwGTQHaE8&pid=Api&P=0&h=180"
+
+  },
+  {
+    name: "Bysac A2",
+    location: "Medchal",
+    price: 120,
+    image: "https://tse4.mm.bing.net/th?id=OIP.8-jBx0NcXb1s0UdZOHzuXwHaEK&pid=Api&P=0&h=180"
+
+  }
+];
+
+// Function to display hotel results
+function displayHotels(results) {
+  const hotelList = document.getElementById("hotel-list");
+  hotelList.innerHTML = "";
+
+  if (results.length === 0) {
+    hotelList.innerHTML = "<p>No hotels found.</p>";
+    return;
+  }
+
+  results.forEach((hotel) => {
+    const hotelCard = document.createElement("div");
+    hotelCard.classList.add("hotel-card");
+
+    const hotelImage = document.createElement("img");
+    hotelImage.src = hotel.image;
+    hotelImage.alt = hotel.name;
+    hotelImage.classList.add("hotel-image");
+    hotelCard.appendChild(hotelImage);
+
+    const hotelInfo = document.createElement("div");
+    hotelInfo.classList.add("hotel-info");
+
+    const hotelName = document.createElement("h3");
+    hotelName.textContent = hotel.name;
+    hotelInfo.appendChild(hotelName);
+
+    const hotelLocation = document.createElement("p");
+    hotelLocation.textContent = hotel.location;
+    hotelInfo.appendChild(hotelLocation);
+
+    const hotelPrice = document.createElement("p");
+    hotelPrice.textContent = "Price: $" + hotel.price + "/night";
+    hotelInfo.appendChild(hotelPrice);
+
+    hotelCard.appendChild(hotelInfo);
+    hotelList.appendChild(hotelCard);
+  });
+}
+
+// Function to handle form submission
+function handleSearch(event) {
+  event.preventDefault();
+
+  const location = document.getElementById("location").value;
+  const checkin = document.getElementById("checkin").value;
+  const checkout = document.getElementById("checkout").value;
+  const guests = document.getElementById("guests").value;
+
+  // Perform validation (optional)
+  if (location.trim() === "" || checkin === "" || checkout === "" || guests === "") {
+    alert("Please fill in all the fields.");
+    return;
+  }
+
+  // Perform hotel search (mocked in this example)
+  const searchResults = hotels.filter((hotel) => hotel.location.toLowerCase() === location.toLowerCase());
+
+  // Display search results
+  displayHotels(searchResults);
+}
+
+// Attach event listener to the search form
+const searchForm = document.getElementById("search-form");
+searchForm.addEventListener("submit", handleSearch);
+
+  </script>
+</body>
+</html>
